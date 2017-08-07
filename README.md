@@ -29,8 +29,10 @@ In your `application.css`, include the css file:
 Then restart your webserver if it was previously running.
 
 ## Helpers
-#   `<%= sl_icon "home" %>
+    Using the `sl_icon` helper: 
+    `<%= sl_icon "home" %>
     # => <i class="icon-home">`
+    
     `<%= sl_icon "social-google" %>
     # => <i class="icon-social-google"` 
   
