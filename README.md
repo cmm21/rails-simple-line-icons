@@ -29,24 +29,29 @@ In your `application.css`, include the css file:
 Then restart your webserver if it was previously running.
 
 ## Helpers
-    Using the `sl_icon` helper: 
-    `<%= sl_icon "home" %>
-    # => <i class="icon-home">`
-    
-    `<%= sl_icon "social-google" %>
-    # => <i class="icon-social-google"` 
-  
-    `<%= sl_icon "home", text: "Welcome home" %>
-    <i class="icon-home"> Welcome home`
-  
-    `<%= sl_icon "home", data: { id: 777 } %>
-    # => <i class="icon-home"data-id="777">`
-    
-    `<%= sl_icon "home", class: "large" %>
-    # => <i class="icon-home large"></i>`
-  
-    `<%= sl_icon "home lg", data: {id: 77}, class: "large" %>
-    # => <i data-id="77" class="icon-home icon-lg pull-left"></i>`
+
+Using the `sl_icon` helper: 
+```ruby
+sl_icon "home"
+# => <i class="icon-home">
+```
+
+```ruby
+sl_icon "social-google"
+# =>  <i class="icon-social-google"
+
+sl_icon "home", text: "Welcome home" 
+# => <i class="icon-home"> Welcome home
+
+sl_icon "home", data: { id: 777 } 
+# =>  <i class="icon-home"data-id="777">
+
+sl_icon "home", class: "large"
+# =>  <i class="icon-home large"></i>
+
+sl_icon "home lg", data: {id: 77}, class: "large"
+# =>  <i data-id="77" class="icon-home icon-lg pull-left"></i>
+```
 
 ## Contributing
 
