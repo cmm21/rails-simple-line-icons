@@ -49,8 +49,8 @@ sl_icon "home", data: { id: 777 }
 sl_icon "home", class: "large"
 # =>  <i class="icon-home large"></i>
 
-sl_icon "home lg", data: {id: 77}, class: "large"
-# =>  <i data-id="77" class="icon-home icon-lg pull-left"></i>
+sl_icon "home", data: {id: 77}, class: "large"
+# =>  <i data-id="77" class="icon-home pull-left"></i>
 ```
 
 ## Contributing
