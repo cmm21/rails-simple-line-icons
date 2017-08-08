@@ -1,6 +1,10 @@
 # SimpleLineIcons::Rails
 
-This gem provides access to the simple line icons library. This is not an official gem.
+This gem provides access to the simple line icons library. 
+
+NOTE:
+- This is not an official gem.
+- I did not design any of the icons myself.
 
 docs: http://simplelineicons.com/
 
