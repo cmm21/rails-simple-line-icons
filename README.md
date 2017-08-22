@@ -1,4 +1,4 @@
-# SimpleLineIcons::Rails
+# Simple Line Icons - Rails
 
 This gem provides access to the simple line icons library. 
 
